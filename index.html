@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owfont-regular.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div class="container">
+        <ul id="backgroundSliderPhotoes"></ul>
+
+        <div class="container-infoBox">
+            <div class="greetings"></div>
+            <div id="quotes">
+                <p id="quote-text"></p>
+                <p id="quote-author"></p>
+                <button class="circleBtn"><img src="./img/circle-of-arrows-couple.png" alt="circle-of-arrows-couple"></button>
+            </div>
+
+            <div id="musicPlaylist">
+                <div id="player">
+                    <p id="music-name"></p>
+                    <p id="music-author"></p>
+                    <div><img src="" alt="img" id="player-img"></div>
+                    <audio src="" id="audio-player" type="audio/mp3" controls></audio>
+                    <ul>
+                        <li class="pleyer-elemLi hoverUlList"></li>
+                        <li class="pleyer-elemLi"></li>
+                        <li class="pleyer-elemLi"></li>
+                        <li class="pleyer-elemLi"></li>
+                        <li class="pleyer-elemLi"></li>
+                        <li class="pleyer-elemLi"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="worldInfo">
+                <div id="weather">
+                    <input type="text" value="Минск" class="city">
+                    <i class="weather-icon owf"></i>
+                    <div class="temperature"></div>
+                    <div class="weather-description"></div>
+                </div>
+                <div id="clock"></div>
+            </div>
+
+            <div id="settingsBlock">
+                <h2>Настройки таймера</h2>
+                <label for=""> Рабочее время (мин) :
+                    <input type="text" name="" id="">
+                </label>
+                <label for=""> Время отдыха (мин) :
+                    <input type="text" name="" id="">
+                </label>
+                <label for=""> Количество итераций :
+                    <input type="text" name="" id="">
+                </label>
+                <button>OK</button>
+            </div>
+
+            <div class="timer">
+                <div class="clockTimer">
+                    <h2 id="min"></h2>
+                    <h2>:</h2>
+                    <h2 id="sec"></h2>
+                </div>
+                <button id="start">Старт</button>
+                <button id="stop">Стоп</button>
+                <button id="reset">Полный сброс</button>
+
+                <div class="notes">
+                    <h3>Список задач</h3>
+                    <hr>
+                    <input type="text" size='5' placeholder="Задача" id="notesInput"><button id="notesBtn">+</button>
+                    <div>
+                        <ul id="text"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <button class="slider-btn" id="prev"><img src="./img/arrow.png" alt="arrow"></button>
+            <button class="slider-btn" id="next"><img src="./img/arrow.png" alt="arrow"></button>
+        </div>
+        <script src="scriptAlert.js"></script>
+        <script src="slider.js"></script>
+        <script src="clock.js"></script>
+        <script src="weather.js"></script>
+        <script src="greetings.js"></script>
+        <script src="playlist.js"></script>
+        <script src="quotes.js"></script>
+        <script src="notes.js"></script>
+        <script src="timer.js"></script>
+    </div>
+</body>
+</html>

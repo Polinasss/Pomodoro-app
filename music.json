@@ -1,0 +1,38 @@
+[
+    {
+      "src": "./music/spirit-blossom-15285.mp3",
+      "author": "Roman Belov",
+      "name": "Spirit blossom",
+      "image": "./img/Roman_Belov.jpg"
+    },
+    {
+      "src": "./music/Elijah_Lee_Aimless_-_Our_Hideaway_(musmore.com).mp3",
+      "author": "Elijah Lee, Aimless",
+      "name": "Our Hideaway",
+      "image": "./img/Our_Hideaway.jpg"
+    },
+    {
+      "src": "./music/FlitzSuppe_MrKfer_-_Mujinas_Ramen_Shop_(musmore.com).mp3",
+      "author": "Flitz & Suppe",
+      "name": "Mujinas Ramen Shop",
+      "image": "./img/Mujinas_Ramen_Shop.jpg"
+    },
+    {
+      "src": "./music/Sleepy_Fish_-_I_Main_Samus_Now_(musmore.com).mp3",
+      "author": "Sleepy Fish",
+      "name": "I Main Samus Now",
+      "image": "./img/sleepy_fish.jpg"
+    },
+    {
+      "src": "./music/Purrple_Cat_-_Caramellow_(musmore.com).mp3",
+      "author": "Purrple Cat",
+      "name": "Caramellow",
+      "image": "./img/Purrple_Cat.jpg"
+    },
+    {
+      "src": "./music/Ghostrifter-Official-Soon-Well-Fly.mp3",
+      "author": "Ghostrifter",
+      "name": "Soon We'll Fly",
+      "image": "./img/ghostrifter-official-soon-well-fly.jpg"
+    }
+  ]
